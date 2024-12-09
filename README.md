@@ -1,6 +1,14 @@
-# API Typescript Testing Framework
+# E2E Tests for CRUD User Operations with GoREST API (v2)
 
-This is a API testing framework built with TypeScript.
+This repository contains end-to-end (E2E) test scenarios for the CRUD (Create, Read, Update, Delete) user operations using the GoREST API (v2). The tests leverage Jest as the testing framework and Supertest for HTTP assertions, ensuring comprehensive API testing with HTTP Bearer Token authentication.
+
+# Key Features:
+
+- API Testing: Detailed scenarios for CRUD operations.
+- Framework: Built using Jest and Supertest for efficient and scalable API testing.
+- Reusable and Maintainable: Modular test structure for easy updates and enhancements.
+- CI/CD Integration: Automated tests configured to run via GitHub Actions.
+- Documentation: Includes a clear README with setup and execution instructions.
 
 ## Prerequisites
 
@@ -22,14 +30,22 @@ npm install
 
 Run tests:
 ```bash
-npm test
+npm run test
 ```
-
 
 Format code with Prettier:
 ```bash
 npm run prettify
 ```
+
+### Print response on shell 
+
+```bash
+console.log(reponse);
+console.log(reponse.body);
+console.log(response.status);
+```
+
 
 
 ## Development Requirements
