@@ -40,7 +40,7 @@ npm run prettify
 
 ### Print response on shell 
 
-```bash
+```js
 console.log(reponse);
 console.log(reponse.body);
 console.log(response.status);
